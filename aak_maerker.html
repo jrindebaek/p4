@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en, da">
+<html lang="en">
 
     <head>
         <meta charset="utf-8">
@@ -10,11 +10,9 @@
         <script src="javascript/aak.js" defer></script>  
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    
     <body>
         <header>
             <img class="logo" src="pictures/aak_logo-kopi.png" alt="logo">
-
             <div class="nav">
                 <label for="toogle">&#9776;</label><input type="checkbox" id="toogle"/>
                 <div class="menu">
@@ -24,15 +22,13 @@
                     <a href="aak_nyhedsbrev.html">Nyhedsbrev</a>  
                     <a href="aak_kontakt.html">Kontakt</a> 
                     <a href="aak_blog.html">Blog</a>  
-                    <a href="#"><form><input type="text" name="Søg" placeholder="Søg.."></form></a>
                 </div>
             </div>                                    
         </header>
         <main>
             <br>
             <p class="headline">MÆRKER </p>
-            <p class="text">Vi har et stort udvalg af både danske og udenlandske mærker i butikken. Det vigtigste for os er, at forhandle produkter der er med til at skabe en god leg!</p>
-            
+            <p class="text">Vi har et stort udvalg af både danske og udenlandske mærker i butikken. Det vigtigste for os er, at forhandle produkter der er med til at skabe en god leg hos både børn og voksne!</p>
             <div class="maerkerContainer">
                 <p class="udvalgteMaerker">UDVALGTE MÆRKER</p>
                 <img src="pictures/kongesSloejd.jpg" alt="Konges Sloej Logo" width="100%"> 
@@ -58,7 +54,72 @@
                     <p class="maerkerHeadline">BY ASTRUP</p>
                 </div>   
             </div>
+            <div class="maerkerContainer">
+                <p class="udvalgteMaerker">ANDRE MÆRKER</p>
+                <table class="maerkerTable">
+                    <tr class="tableText">
+                        <th>Vilac</th>
+                        <th>ASI</th><th>Jellycat</th>
+                    <tr class="tableText">
+                        <th>Filibaba</th>
+                        <th>Izipizi</th> <th>By Stær</th>
+                    </tr>
+                    
+                    <tr class="tableText">
+                        <th>Hevea</th>
+                        <th>OyOy</th>
+                        <th>Natruba</th>
+                    </tr>
+                    <tr class="tableText">
+                        <th>3 Sprouts</th>
+                        <th>Djeco</th>
+                        <th>Trybike</th>
+                    </tr>
+                    <tr class="tableText">
+                        <th>Pinolino</th>
+                        <th>Baby Dan</th>
+                        <th>Yumbox</th>
+                    </tr>
+                    <tr class="tableText">
+                        <th>Moulin Roty </th>
+                        <th>Done by Deer</th>
+                        <th>Sofie Giraf</th>
+                    </tr>
+                </table>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"> 
+                <p>Til toppen</p> 
+            </button>
         </main>
         <footer>
-            <img class="footerPic" src="../Sk%C3%A6rmbillede%202019-04-01%20kl.%2016.33.33.png" width="100%" style="opacity: 0.7">
+            <div class="footerContainer">
+                <div footer="footerInfo">
+                    <ul>
+                        <p class="footerHeadline">Adresse</p>
+                            <li><p class="footerText">All about Kids</p></li>
+                            <li><p class="footerText">Mageløs 9</p></li>
+                            <li><p class="footerText">5000 Odense C</p></li>
+                    </ul>
+                </div>
+                
+                <div footer="footerInfo">
+                    <ul>
+                        <p class="footerHeadline">Kontakt Information</p>
+                        <li><p class="footerText">Tlf: +45 40 53 30 30 </p></li>
+                        <li><p class="footerText">info@allaboutkids.dk</p></li>
+                        <li><p class="footerText">5000 Odense C</p></li>
+                    </ul>
+                </div>
+                
+                <div class="footerInfo">
+                    <ul>
+                        <p class="footerHeadline">Sociale Medier</p>
+                            <li><a href="https://www.facebook.com/allaboutkids.dk/" target="_blank"><p class="footerText">Facebook</p></a></li>
+                            <li><a href="https://www.instagram.com/allaboutkidsodense/" target="_blank"><p class="footerText">Instagram</p></a></li>
+                            <li><a href="aak_blog.html"><p class="footerText">Vores blog</p></a></li>
+                    </ul>
+                </div>
+            </div>
         </footer>
+    </body>
+</html>

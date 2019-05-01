@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en, da">
+<html lang="en">
 
     <head>
         <meta charset="utf-8">
@@ -10,7 +10,6 @@
         <script src="javascript/aak.js" defer></script>  
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    
     <body>
         <header>
             <img class="logo" src="pictures/aak_logo-kopi.png" alt="logo">
@@ -23,20 +22,51 @@
                     <a href="aak_nyhedsbrev.html">Nyhedsbrev</a>  
                     <a href="aak_kontakt.html">Kontakt</a> 
                     <a href="aak_blog.html">Blog</a>
-                    <a href="#"><form><input type="text" name="Søg" placeholder="Søg.."></form></a>
                 </div>
-            </div>
-                                    
+            </div>                    
         </header>
-        <main>
+        <main>            
             <br>
             <p class="headline">NYHEDSBREV </p>
             <p class="text">Tilmeld dig vores nyhedsbrev - og få opdateringer om nye varer, tilbud, aktiviteter i butikken m.m.</p>
-            
-            
-        
+            <div class="newsSignUp"><input type="text" placeholder="Dit navn.." name="Name" required>
+                <input type="text" placeholder="Din e-mail.." name="email" required>
+                <input  type="submit" value="Tilmeld" name="Subscribe" style="background-color: #778899">
+            </div>
+            <img src="pictures/newsPic.jpg" width="100%" height="auto">
+            <button onclick="topFunction()" id="myBtn" title="Go to top"> 
+                <p>Til toppen</p> 
+            </button>
         </main>
-        
         <footer>
-            <img class="footerPic" src="../Sk%C3%A6rmbillede%202019-04-01%20kl.%2016.33.33.png" width="100%" style="opacity: 0.7">
+            <div class="footerContainer">
+                <div footer="footerInfo">
+                    <ul>
+                        <p class="footerHeadline">Adresse</p>
+                            <li><p class="footerText">All about Kids</p></li>
+                            <li><p class="footerText">Mageløs 9</p></li>
+                            <li><p class="footerText">5000 Odense C</p></li>
+                    </ul>
+                </div>
+                
+                <div footer="footerInfo">
+                    <ul>
+                        <p class="footerHeadline">Kontakt Information</p>
+                        <li><p class="footerText">Tlf: +45 40 53 30 30 </p></li>
+                        <li><p class="footerText">info@allaboutkids.dk</p></li>
+                        <li><p class="footerText">5000 Odense C</p></li>
+                    </ul>
+                </div>
+                
+                <div class="footerInfo">
+                    <ul>
+                        <p class="footerHeadline">Sociale Medier</p>
+                            <li><a href="https://www.facebook.com/allaboutkids.dk/" target="_blank"><p class="footerText">Facebook</p></a></li>
+                            <li><a href="https://www.instagram.com/allaboutkidsodense/" target="_blank"><p class="footerText">Instagram</p></a></li>
+                            <li><a href="aak_blog.html"><p class="footerText">Vores blog</p></a></li>
+                    </ul>
+                </div>
+            </div>
         </footer>
+    </body>
+</html>

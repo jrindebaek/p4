@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en, da">
+<html lang="en">
 
     <head>
         <meta charset="utf-8">
@@ -9,9 +9,7 @@
         <link rel="stylesheet" href="stylesheet/aak.css">
         <script src="javascript/aak.js" defer></script>  
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
     </head>
-    
     <body>
         <header>
             <img class="logo" src="pictures/aak_logo-kopi.png" alt="logo">
@@ -24,31 +22,57 @@
                     <a href="aak_nyhedsbrev.html">Nyhedsbrev</a>  
                     <a href="aak_kontakt.html">Kontakt</a> 
                     <a href="aak_blog.html">Blog</a>
-                    <a href="#"><form><input type="text" name="Søg" placeholder="Søg.."></form></a>
                 </div>
-            </div>
-                                    
+            </div>                   
         </header>
         <main>
-            
             <br>
             <p class="headline">Kontakt os </p>
-            <p class="text">Har du nogle spørgsmål? Så udfyld formularen nedenfor! Vi svarer inden 2-3 hverdage. Har du brug for hjælp nu? <br>Ring til butikken på </p>
-            
-        
-
-    <div class="kontaktColumn">
-        <label for="fName" class="kontaktHeadline">Fornavn</label>
-        <input type="text2" id="fName" name="firstName" placeholder="Dit navn..">
-        <label for="eName" class="kontaktHeadline">Efternavn</label>
-        <input type="text2" id="eName" name="Efternavn" placeholder="Dit efternavn..">
-        <label for="subject" class="kontaktHeadline">Emne</label>
-        <textarea id="subject" name="subject" placeholder="Skriv her.." style="height:170px"></textarea>
-        <input type="submit" value="Send">
-    </div>
-        
+            <p class="text">Har du nogle spørgsmål? Så udfyld formularen nedenfor! Vi svarer inden 2-3 hverdage. Har du brug for hjælp nu? <br>Ring til butikken på + 45 40 53 30 30 </p>
+            <div class="kontaktColumn">
+                <label for="fName" class="kontaktHeadline">Fornavn</label>
+                <input type="text2" id="fName" name="firstName" placeholder="Dit navn..">
+                <label for="eName" class="kontaktHeadline">Efternavn</label>
+                <input type="text2" id="eName" name="Efternavn" placeholder="Dit efternavn..">
+                <label for="subject" class="kontaktHeadline">Emne</label>
+                <textarea id="subject" name="subject" placeholder="Skriv her.." style="height:170px"></textarea>
+                <input type="submit" value="Send">
+            </div>
+            <p class="text">Eller find os på Mageløs 9, Odense C </p>
+            <img src="pictures/placeringPic.png" alt="Placeringskort" width="100%">
+            <button onclick="topFunction()" id="myBtn" title="Go to top"> 
+                <p>Til toppen</p> 
+            </button>
         </main>
-        
         <footer>
-            <img class="footerPic" src="../Sk%C3%A6rmbillede%202019-04-01%20kl.%2016.33.33.png" width="100%" style="opacity: 0.7">
+            <div class="footerContainer">
+                <div footer="footerInfo">
+                    <ul>
+                        <p class="footerHeadline">Adresse</p>
+                            <li><p class="footerText">All about Kids</p></li>
+                            <li><p class="footerText">Mageløs 9</p></li>
+                            <li><p class="footerText">5000 Odense C</p></li>
+                    </ul>
+                </div>
+                
+                <div footer="footerInfo">
+                    <ul>
+                        <p class="footerHeadline">Kontakt Information</p>
+                        <li><p class="footerText">Tlf: +45 40 53 30 30 </p></li>
+                        <li><p class="footerText">info@allaboutkids.dk</p></li>
+                        <li><p class="footerText">5000 Odense C</p></li>
+                    </ul>
+                </div>
+                
+                <div class="footerInfo">
+                    <ul>
+                        <p class="footerHeadline">Sociale Medier</p>
+                            <li><a href="https://www.facebook.com/allaboutkids.dk/" target="_blank"><p class="footerText">Facebook</p></a></li>
+                            <li><a href="https://www.instagram.com/allaboutkidsodense/" target="_blank"><p class="footerText">Instagram</p></a></li>
+                            <li><a href="aak_blog.html"><p class="footerText">Vores blog</p></a></li>
+                    </ul>
+                </div>
+            </div>
         </footer>
+    </body>
+</html>
